@@ -2,8 +2,10 @@
 .build/
 .swiftpm/
 
-# Built app bundle (regenerate with scripts/package_app.sh)
+# Built app bundle / installer (regenerate with scripts/package_app.sh and
+# scripts/make_dmg.sh — distributed via GitHub Releases, not committed here)
 MeetingFly.app/
+*.dmg
 
 # Xcode
 DerivedData/

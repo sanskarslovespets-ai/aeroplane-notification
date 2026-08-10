@@ -1,7 +1,29 @@
 # MeetingFly
 
-A native macOS menu-bar utility that flies a small airplane across your screen a
+A native macOS menu-bar utility that flies a small character across your screen a
 few minutes before every calendar meeting, with the meeting details attached.
+Ten selectable characters (airplane, rocket, dog, cat, and more) — see Settings
+→ Animation.
+
+## Download
+
+Grab the latest `MeetingFly-x.y.z.dmg` from the
+[Releases page](https://github.com/sanskarslovespets-ai/aeroplane-notification/releases/latest),
+open it, and drag **MeetingFly.app** into **Applications**.
+
+**This build isn't notarized** (that requires a paid Apple Developer ID
+account) — macOS Gatekeeper will block the first launch with "Apple could not
+verify this app is free of malware." To open it anyway:
+
+1. Try double-clicking it once (it'll be blocked — that's expected).
+2. Open **System Settings → Privacy & Security**, scroll down, and you'll see
+   *"MeetingFly.app was blocked"* with an **Open Anyway** button. Click it.
+3. Confirm **Open** in the dialog that follows.
+
+You only need to do this once. If you'd rather build from source (no
+Gatekeeper prompt at all, since locally-built apps aren't quarantined), see
+"Building without Xcode" below — it needs nothing but the free Xcode Command
+Line Tools.
 
 ## Requirements
 
