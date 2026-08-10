@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B95081D9B918E97AB5F3D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43EBCA89F06EC3A246DA350 /* Assets.xcassets */; };
+		0A24EED7566A661475ECDDCC /* StatusItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF06D1B3069955CB788E1D5A /* StatusItemController.swift */; };
+		0BD18C0DB22DA5536D2BA2FB /* MeetingLinkDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B682DB34F7576AD6E8B6AB8 /* MeetingLinkDetector.swift */; };
+		0FBDD134F5343D897B6207E0 /* GeneralSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61CD6EB7DE96F1E4D96B326 /* GeneralSettingsView.swift */; };
+		2CED9C4936EB1F17D1E11BCD /* ReminderSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E13A102B9C09E9D37E7B645 /* ReminderSettings.swift */; };
+		2E07DB96E34059736F666BEF /* MascotGlyph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662FFEE80A100EDEAFCEFB1A /* MascotGlyph.swift */; };
+		505CBD41C7A42C5370481D73 /* AnimationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B5F2DD8765377E248AD7F6 /* AnimationSettingsView.swift */; };
+		572B8E1712F4338C8F719244 /* PermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26A7AC88055C94140B01BC /* PermissionsView.swift */; };
+		7F4F8FF2050EB904E3DD515B /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1623EBF6AA8D611664FBB27D /* NotificationManager.swift */; };
+		8326AE0B9B6CA56BF8D977F8 /* DateFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2339C0E443F9572AC78F0DC5 /* DateFormatting.swift */; };
+		8358E99DA6AFE4472321C6BE /* AirplaneOverlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31FA7215676197F34A655DE /* AirplaneOverlayController.swift */; };
+		8E1520D491E9D2399387C687 /* MeetingPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E642B2869427D123D9B768 /* MeetingPlatform.swift */; };
+		90661FCB7CAA04C0A4A4E8B1 /* ReminderScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3436A85E9270B47749178B4C /* ReminderScheduler.swift */; };
+		98E64D69EF23E51378028F7C /* MeetingTypesSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD5C20346FAD35B63D22B3D /* MeetingTypesSettingsView.swift */; };
+		A4B6D93F52035481A0C05688 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D0F2A8C769C811F7F82058 /* SettingsView.swift */; };
+		AF63624061EC9CCBC8E82365 /* AirplaneOverlayWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AADE72639FD64DDEBF441A /* AirplaneOverlayWindow.swift */; };
+		B8CF6240B932F2238B7B832B /* ReminderSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A759DF200E30838D890F7B1 /* ReminderSettingsView.swift */; };
+		C659E7A18432680E33C13CB7 /* MeetingFlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F9B1C21D49E277E7E87907 /* MeetingFlyApp.swift */; };
+		CB8CACB24948AA782F5ABE36 /* AirplaneAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FF509CECCE7987CDBE9216 /* AirplaneAnimationView.swift */; };
+		CD059B748AC3909BD1D60F1D /* MeetingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07D3FA67B6D6E712E683238 /* MeetingManager.swift */; };
+		D0EE5A960B6F3727AF2A9E97 /* LaunchAtLoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF58323C2D4B3E922F0AC94 /* LaunchAtLoginManager.swift */; };
+		D39A76B41216281C3D75D63C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FDCD3EA06F2599F56D4025 /* AppDelegate.swift */; };
+		E3E3A1DDAEE6EA0230874B35 /* MeetingBannerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916E28D42C06985A5BD55C86 /* MeetingBannerCardView.swift */; };
+		F720283AE2A477546B4B28F8 /* AirplaneShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B2F8AC0AC2063E187767E2 /* AirplaneShapes.swift */; };
+		FB52106E6F6A139B2D811710 /* Meeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37B5EEE2CB41C211907568D /* Meeting.swift */; };
+		FE63DE9160032854C7A57CDA /* MascotShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D09D1090FB06219CE74FDB /* MascotShapes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A759DF200E30838D890F7B1 /* ReminderSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderSettingsView.swift; sourceTree = "<group>"; };
+		1623EBF6AA8D611664FBB27D /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		1B682DB34F7576AD6E8B6AB8 /* MeetingLinkDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingLinkDetector.swift; sourceTree = "<group>"; };
+		2339C0E443F9572AC78F0DC5 /* DateFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatting.swift; sourceTree = "<group>"; };
+		3436A85E9270B47749178B4C /* ReminderScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderScheduler.swift; sourceTree = "<group>"; };
+		3CD5C20346FAD35B63D22B3D /* MeetingTypesSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTypesSettingsView.swift; sourceTree = "<group>"; };
+		3E13A102B9C09E9D37E7B645 /* ReminderSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderSettings.swift; sourceTree = "<group>"; };
+		47F9B1C21D49E277E7E87907 /* MeetingFlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFlyApp.swift; sourceTree = "<group>"; };
+		662FFEE80A100EDEAFCEFB1A /* MascotGlyph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MascotGlyph.swift; sourceTree = "<group>"; };
+		81E642B2869427D123D9B768 /* MeetingPlatform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingPlatform.swift; sourceTree = "<group>"; };
+		87B2F8AC0AC2063E187767E2 /* AirplaneShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirplaneShapes.swift; sourceTree = "<group>"; };
+		916E28D42C06985A5BD55C86 /* MeetingBannerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingBannerCardView.swift; sourceTree = "<group>"; };
+		9DF58323C2D4B3E922F0AC94 /* LaunchAtLoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAtLoginManager.swift; sourceTree = "<group>"; };
+		A07D3FA67B6D6E712E683238 /* MeetingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingManager.swift; sourceTree = "<group>"; };
+		A37B5EEE2CB41C211907568D /* Meeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting.swift; sourceTree = "<group>"; };
+		AA26A7AC88055C94140B01BC /* PermissionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsView.swift; sourceTree = "<group>"; };
+		B1FDCD3EA06F2599F56D4025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0D09D1090FB06219CE74FDB /* MascotShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MascotShapes.swift; sourceTree = "<group>"; };
+		C1D0F2A8C769C811F7F82058 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C2AADE72639FD64DDEBF441A /* AirplaneOverlayWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirplaneOverlayWindow.swift; sourceTree = "<group>"; };
+		C61CD6EB7DE96F1E4D96B326 /* GeneralSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralSettingsView.swift; sourceTree = "<group>"; };
+		C7B5F2DD8765377E248AD7F6 /* AnimationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationSettingsView.swift; sourceTree = "<group>"; };
+		CF06D1B3069955CB788E1D5A /* StatusItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusItemController.swift; sourceTree = "<group>"; };
+		E1357014E18F9069289D77F9 /* MeetingFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2FF509CECCE7987CDBE9216 /* AirplaneAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirplaneAnimationView.swift; sourceTree = "<group>"; };
+		E31FA7215676197F34A655DE /* AirplaneOverlayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirplaneOverlayController.swift; sourceTree = "<group>"; };
+		E43EBCA89F06EC3A246DA350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		13A8F30ACA7C4E833DFCE2DB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C7B5F2DD8765377E248AD7F6 /* AnimationSettingsView.swift */,
+				C61CD6EB7DE96F1E4D96B326 /* GeneralSettingsView.swift */,
+				3CD5C20346FAD35B63D22B3D /* MeetingTypesSettingsView.swift */,
+				AA26A7AC88055C94140B01BC /* PermissionsView.swift */,
+				0A759DF200E30838D890F7B1 /* ReminderSettingsView.swift */,
+				C1D0F2A8C769C811F7F82058 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		1ED09EDE90AADD8C9D3D3B9C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				9DF58323C2D4B3E922F0AC94 /* LaunchAtLoginManager.swift */,
+				A07D3FA67B6D6E712E683238 /* MeetingManager.swift */,
+				1623EBF6AA8D611664FBB27D /* NotificationManager.swift */,
+				3436A85E9270B47749178B4C /* ReminderScheduler.swift */,
+				CF06D1B3069955CB788E1D5A /* StatusItemController.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		3C5DBE858A32282A28791109 /* Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				E2FF509CECCE7987CDBE9216 /* AirplaneAnimationView.swift */,
+				E31FA7215676197F34A655DE /* AirplaneOverlayController.swift */,
+				C2AADE72639FD64DDEBF441A /* AirplaneOverlayWindow.swift */,
+				87B2F8AC0AC2063E187767E2 /* AirplaneShapes.swift */,
+				662FFEE80A100EDEAFCEFB1A /* MascotGlyph.swift */,
+				C0D09D1090FB06219CE74FDB /* MascotShapes.swift */,
+				916E28D42C06985A5BD55C86 /* MeetingBannerCardView.swift */,
+			);
+			path = Overlay;
+			sourceTree = "<group>";
+		};
+		3E18950AB2AEBD07E861AE38 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2339C0E443F9572AC78F0DC5 /* DateFormatting.swift */,
+				1B682DB34F7576AD6E8B6AB8 /* MeetingLinkDetector.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		47B17770054CB85CFD0D47D0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E43EBCA89F06EC3A246DA350 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7370969FDE83D1A1EBD79267 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B1FDCD3EA06F2599F56D4025 /* AppDelegate.swift */,
+				47F9B1C21D49E277E7E87907 /* MeetingFlyApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		91C26D0FFED281A0A8592D3B = {
+			isa = PBXGroup;
+			children = (
+				BB8F38A4B2925135727F0C0F /* MeetingFly */,
+				F3632DC88F270A0B63E09198 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EBA8A92788E9F78BB14D76D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A37B5EEE2CB41C211907568D /* Meeting.swift */,
+				81E642B2869427D123D9B768 /* MeetingPlatform.swift */,
+				3E13A102B9C09E9D37E7B645 /* ReminderSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A70EB17A61ACFA9D73CDEFEE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C5DBE858A32282A28791109 /* Overlay */,
+				13A8F30ACA7C4E833DFCE2DB /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB8F38A4B2925135727F0C0F /* MeetingFly */ = {
+			isa = PBXGroup;
+			children = (
+				7370969FDE83D1A1EBD79267 /* App */,
+				1ED09EDE90AADD8C9D3D3B9C /* Managers */,
+				9EBA8A92788E9F78BB14D76D /* Models */,
+				47B17770054CB85CFD0D47D0 /* Resources */,
+				3E18950AB2AEBD07E861AE38 /* Utilities */,
+				A70EB17A61ACFA9D73CDEFEE /* Views */,
+			);
+			path = MeetingFly;
+			sourceTree = "<group>";
+		};
+		F3632DC88F270A0B63E09198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1357014E18F9069289D77F9 /* MeetingFly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC11D59729464C5F30ED04DD /* MeetingFly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00445E5DFE5A61FABFAACF3C /* Build configuration list for PBXNativeTarget "MeetingFly" */;
+			buildPhases = (
+				DFE4777CBCE249E4F57BD1DC /* Sources */,
+				F20D5BC6C5D9416CF9505666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetingFly;
+			packageProductDependencies = (
+			);
+			productName = MeetingFly;
+			productReference = E1357014E18F9069289D77F9 /* MeetingFly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F50C940C4892BD170806A00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DC11D59729464C5F30ED04DD = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 97AD434EB48C00358BE4CE41 /* Build configuration list for PBXProject "MeetingFly" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 91C26D0FFED281A0A8592D3B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F3632DC88F270A0B63E09198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC11D59729464C5F30ED04DD /* MeetingFly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F20D5BC6C5D9416CF9505666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B95081D9B918E97AB5F3D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFE4777CBCE249E4F57BD1DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8CACB24948AA782F5ABE36 /* AirplaneAnimationView.swift in Sources */,
+				8358E99DA6AFE4472321C6BE /* AirplaneOverlayController.swift in Sources */,
+				AF63624061EC9CCBC8E82365 /* AirplaneOverlayWindow.swift in Sources */,
+				F720283AE2A477546B4B28F8 /* AirplaneShapes.swift in Sources */,
+				505CBD41C7A42C5370481D73 /* AnimationSettingsView.swift in Sources */,
+				D39A76B41216281C3D75D63C /* AppDelegate.swift in Sources */,
+				8326AE0B9B6CA56BF8D977F8 /* DateFormatting.swift in Sources */,
+				0FBDD134F5343D897B6207E0 /* GeneralSettingsView.swift in Sources */,
+				D0EE5A960B6F3727AF2A9E97 /* LaunchAtLoginManager.swift in Sources */,
+				2E07DB96E34059736F666BEF /* MascotGlyph.swift in Sources */,
+				FE63DE9160032854C7A57CDA /* MascotShapes.swift in Sources */,
+				FB52106E6F6A139B2D811710 /* Meeting.swift in Sources */,
+				E3E3A1DDAEE6EA0230874B35 /* MeetingBannerCardView.swift in Sources */,
+				C659E7A18432680E33C13CB7 /* MeetingFlyApp.swift in Sources */,
+				0BD18C0DB22DA5536D2BA2FB /* MeetingLinkDetector.swift in Sources */,
+				CD059B748AC3909BD1D60F1D /* MeetingManager.swift in Sources */,
+				8E1520D491E9D2399387C687 /* MeetingPlatform.swift in Sources */,
+				98E64D69EF23E51378028F7C /* MeetingTypesSettingsView.swift in Sources */,
+				7F4F8FF2050EB904E3DD515B /* NotificationManager.swift in Sources */,
+				572B8E1712F4338C8F719244 /* PermissionsView.swift in Sources */,
+				90661FCB7CAA04C0A4A4E8B1 /* ReminderScheduler.swift in Sources */,
+				2CED9C4936EB1F17D1E11BCD /* ReminderSettings.swift in Sources */,
+				B8CF6240B932F2238B7B832B /* ReminderSettingsView.swift in Sources */,
+				A4B6D93F52035481A0C05688 /* SettingsView.swift in Sources */,
+				0A24EED7566A661475ECDDCC /* StatusItemController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13072F9BDE6811A928DB3150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D3A0E34738317A26D632BA3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MeetingFly/Resources/MeetingFly.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MeetingFly/Resources/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meetingfly.app;
+				PRODUCT_NAME = MeetingFly;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F2678996565BC902C83CF6FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MeetingFly/Resources/MeetingFly.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MeetingFly/Resources/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meetingfly.app;
+				PRODUCT_NAME = MeetingFly;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F31392E15F48D3B1C17A1C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00445E5DFE5A61FABFAACF3C /* Build configuration list for PBXNativeTarget "MeetingFly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A0E34738317A26D632BA3D /* Debug */,
+				F2678996565BC902C83CF6FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		97AD434EB48C00358BE4CE41 /* Build configuration list for PBXProject "MeetingFly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13072F9BDE6811A928DB3150 /* Debug */,
+				F31392E15F48D3B1C17A1C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F50C940C4892BD170806A00 /* Project object */;
+}
